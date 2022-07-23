@@ -1,0 +1,18 @@
+[package]
+name = "intelitec_rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["jarode zago"]
+
+
+[dev-dependencies]
+criterion = "0.3.6"
+
+
+[[bench]]
+name = "fibonacci"
+harness = false
+
+[dependencies]
+image = "0.24.3"
+
